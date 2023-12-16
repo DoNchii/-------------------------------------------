@@ -1,0 +1,59 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+main{
+    height: 100%;
+}
+
+.banner {
+    display: flex;
+    background: #183052;
+    min-height: 200px;
+    max-width: 100%;
+    margin-top:0px;
+    color: white;
+}
+
+.text-banner{
+    padding: 70px;
+    font-size:45px;
+}
+
+.block {
+    margin-top:50px;
+}
+
+.text_b{
+    padding: 20px;
+    font-size:15px;
+    text-align: center;
+}
+
+.phone{
+    font-size:5px;
+    color: #fff;
+}
+
+
+
+
+
+
+.aria-label {
+margin-top: 50px;
+  float: right;
+  appearance: none;
+  border-radius: 5rem;
+  margin: -1em;
+}
+p {
+  margin-top: 1em;
+}
+h2 + p {
+  margin-top: -1em;
+}
+label {
+  display: flex;
+  flex-direction: column;
+}

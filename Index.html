@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <link href="main_style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+    <title>"Юрист"</title>
+</head>
+<body class="p-3 m-0 border-0 bd-example m-0 border-0 bd-example-cssgrid">
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" style="height: 80px;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">"Юрист"</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">О компании</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Купить правовую систему</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Пробный доступ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Новости</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Вакансии</a>
+                  </li>
+                </ul>
+               <div class="phone"><h1>Тел. 8-800-800-80-80</h1></div>
+              </div>
+            </div>
+
+          </nav>
+
+          <div class="banner"><h1 class="text-banner">Интернет-портал правовой информации «Юрист»</h1></div>
+
+    </header>
+
+    <Main>
+    
+        
+<dialog open aria-labelledby="dialogid" style="margin-top: 50px;">
+    <form action="thankyou.php">
+
+      <p>Поиск справочно-правовой системы</p>
+      <p>
+        <label>Вид Акта:
+            <select name="powersoure">
+              <option>Федеральный закон</option>
+              <option>Федеральный конституционный закон</option>
+              <option>Закон Российской Федерации r</option>
+            </select>
+          </label>
+      </p>
+      <label>Дата принятия - Период:
+        <select name="powersoure">
+          <option>Точно</option>
+          <option>Текущий месяц</option>
+          <option>Текущий год</option>
+          <option>Предыдущий год</option>
+        </select>
+      </label>
+      <p>
+        <label for="start">Дата с кого приняли:</label>
+
+        <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+      </p>
+      <p>
+        <label for="start">Дата по какое приняли:</label>
+
+        <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+      </p>
+      <p>
+            <label for="tentacles">Number of tentacles (10-100):</label>
+
+            <input type="number" id="tentacles" name="tentacles" min="10" max="100" />
+      </p>
+      <p>
+        <label>Наименование:
+            <select name="powersoure">
+              <option>Федеральный закон</option>
+              <option>Федеральный конституционный закон</option>
+              <option>Закон Российской Федерации r</option>
+            </select>
+          </label>
+      </p>
+      <p>
+        <label>Состояние:
+            <select name="powersoure">
+              <option>Федеральный закон</option>
+              <option>Федеральный конституционный закон</option>
+              <option>Закон Российской Федерации r</option>
+            </select>
+          </label>
+      </p>
+      <p>
+        <label>Отсортировать по:
+            <select name="powersoure">
+              <option>Федеральный закон</option>
+              <option>Федеральный конституционный закон</option>
+              <option>Закон Российской Федерации r</option>
+            </select>
+          </label>
+      </p>
+      <p>
+        <button type="submit" formmethod="post">Поиск</button>
+        <button type="submit">Очистить</button>
+      </p>
+    </form>
+  </dialog>
+
+    </Main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
